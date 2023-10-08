@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { calcSelect } from '../../redux/calc/selectors';
 import { equelClick } from '../../redux/calc/slice';
 import { useAppDispatch } from '../../redux/store';
-import { playSound } from 'utils/sound';
+import { playSound } from '../../utils/sound';
 
 const CalcBody: FC = () => {
 	const { story, equel } = useSelector(calcSelect);

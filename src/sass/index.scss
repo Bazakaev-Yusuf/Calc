@@ -1,5 +1,5 @@
-@import './normolize.scss';
-@import './variables.scss';
+@import './variables';
+@import './normalize';
 
 .calc {
 	border: $dark 5px solid;
@@ -18,7 +18,7 @@
 	background-color: #202020;
 	box-shadow: inset $dark 0px 0px 20px;
 	border-radius: 10px;
-	text-align: end;
+	text-align: right;
 	padding: 5px 20px;
 	font-weight: bold;
 	color: lightslategrey;
@@ -27,7 +27,7 @@
 		overflow: hidden;
 		display: flex;
 		align-items: center;
-		justify-content: end;
+		justify-content: flex-end;
 		font-size: 16px;
 	}
 	&__resolve {

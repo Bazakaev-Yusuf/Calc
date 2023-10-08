@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { playSound } from 'utils/sound';
+import { playSound } from '../../../utils/sound';
 
 import { addNumber } from '../../../redux/calc/slice';
 import { useAppDispatch } from '../../../redux/store';
